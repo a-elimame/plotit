@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="78KemOZNt5Tb9ka_UDMy">
-    <mxGraphModel dx="1914" dy="1264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="480" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="AH9cDJrXuEIUwglUFwCa-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Representation des intervalles et inegalites&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="120" x="550" y="610" as="geometry" />
         </mxCell>
-        <mxCell id="AH9cDJrXuEIUwglUFwCa-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consulter le ChatBot" vertex="1">
+        <mxCell id="AH9cDJrXuEIUwglUFwCa-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Utiliser le solveur mathematique" vertex="1">
           <mxGeometry height="80" width="190" x="230" y="730" as="geometry" />
         </mxCell>
         <mxCell id="AH9cDJrXuEIUwglUFwCa-31" edge="1" parent="1" source="AH9cDJrXuEIUwglUFwCa-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AH9cDJrXuEIUwglUFwCa-27">
