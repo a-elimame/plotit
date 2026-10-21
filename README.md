@@ -1,16 +1,31 @@
-# React + Vite
+# Plotit
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Présentation
 
-Currently, two official plugins are available:
+Plotit est une plateforme web qui aide les étudiants à travailler sur des problèmes mathématiques. Elle permet de faire des calculs et de visualiser des fonctions sous forme de graphiques.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Ce projet est réalisé dans le cadre du mini-projet de Programmation Web 1 à la FSSM.
 
-## React Compiler
+## Fonctionnalités prévues
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Une calculatrice scientifique.
+- Des outils de calcul mathématique.
+- La représentation graphique des fonctions.
+- Des outils simples pour résoudre des équations.
 
-## Expanding the Oxlint configuration
+## Technologies utilisées
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- HTML
+- CSS
+- JavaScript
+- React.js
+
+## Membres de l'équipe
+
+- Youssef Harbach
+- El Houcine Lahmidi
+- Abdessamad El Imame
+
+## Dépôt du projet
+
+Le code source du projet est disponible sur [GitHub](https://github.com/a-elimame/plotit).
