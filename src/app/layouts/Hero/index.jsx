@@ -18,7 +18,7 @@ function Hero() {
           </p>
           <div className="hero-button-section">
 
-            <button>Tracer votre première fonction →</button>
+            <button className="btn scale-animated">Tracer votre première fonction →</button>
             <span>Tracé de fonctions · Résolution d’équations · Outils mathématiques</span>
           </div>
         </div>
