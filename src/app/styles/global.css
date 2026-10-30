@@ -162,7 +162,8 @@ transition: background-color 0.2s ease;
 .hero-section .hero-container .hero-left .hero-button-section{
   padding-top:20px;
 }
-.hero-section .hero-container .hero-left .hero-button-section button{
+button.btn{
+  cursor: pointer;
   display:block;
   padding:15px;
   margin-bottom:20px;
@@ -174,21 +175,14 @@ transition: background-color 0.2s ease;
 }
 
 
-.hero-section .hero-container .hero-left .hero-button-section button:hover{
-  animation: scaleBtn 0.1s ease;
-  animation-fill-mode: forwards;
+.scale-animated{
+  transition: 0.1s ease;
 }
 
-@keyframes scaleBtn{
-0%{
-  transform:scale(1);
-}
-100%{
-  transform:scale(1.2);
+button.btn.scale-animated:hover{
+  transform: scale(1.1);
 }
 
-
-}
 
 
 

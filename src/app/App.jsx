@@ -1,22 +1,19 @@
 import { useState } from 'react';
-import Navbar from './layouts/Navbar/'
-import Hero from './layouts/Hero/'
-import Cards from './layouts/Cards/'
-import Container from './layouts/Container'
+import HomePage from './pages/HomePage.jsx';
+import CalculatorPage from './pages/CalculatorPage.jsx'
+import PlotPage from './pages/PlotPage.jsx';
+import ConverterPage from './pages/ConverterPage.jsx';
 import './styles/global.css'
-
+import { Routes, Route } from 'react-router-dom';
 function App() {
 
 
   return (
 
-    <>
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <Container>
-        <Cards></Cards>
-      </Container>
-    </>
+    <Routes>
+
+      <Route path="/" element={<HomePage />}></Route>
+    </Routes>
 
   )
 
