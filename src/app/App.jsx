@@ -12,8 +12,9 @@ function App() {
 
     <Routes>
 
+
       <Route path="/" element={<HomePage />}></Route>
-      <Route path="/plot" element={<PlotPage />}/>
+      <Route path="/plot" element={<PlotPage />} />
     </Routes>
 
   )

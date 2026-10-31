@@ -1,0 +1,84 @@
+.plotter-item-list{
+  width: 100%;
+}
+
+.plotter-item{
+  display: flex;
+  border-bottom: 0.01px solid #C4C5C7;
+}
+
+.item-actions{
+  position:relative;
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+  background: #C4C5C7;
+}
+
+.item-actions .item-actions-drag{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  z-index: 0;
+  cursor: grab;
+}
+
+.item-actions .item-actions-drag:active{
+  cursor: grabbing;
+}
+
+.item-actions span.item-number{
+
+  font-size: 10px;
+  position: absolute;
+  top : 5px;
+  left: 5px;
+  color: #55575A;
+}
+
+
+
+.item-actions .item-action{
+  z-index:1;
+  padding: 4px 0px; 
+}
+
+.item-actions .item-action button{
+  background: var(--primary-color);
+  color : #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border:none;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  opacity: 0.5;
+  transition: 0.2s ease;
+}
+
+.item-actions .item-action button:hover{
+  opacity: 1;
+}
+.item-action button svg{
+  width: 15px;
+}
+
+
+.item-content{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+
+.item-content .item-custom-input{
+  font-size: 20px;
+  width: 100%;
+  padding-left: 10px;
+  outline: none;
+  font-family: 'Computer Modern Serif', serif;
+}

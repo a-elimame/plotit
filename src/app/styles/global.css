@@ -165,13 +165,26 @@ transition: background-color 0.2s ease;
 button.btn{
   cursor: pointer;
   display:block;
-  padding:15px;
-  margin-bottom:20px;
+  padding:10px 15px;
   border:none;
   border-radius: 10px;
   font-size: 14px;
   color: var(--primary-color);
   background:#fff; 
+}
+
+button.btn.btn-reversed{
+  color:#fff;
+  background: var(--primary-color);
+}
+
+button.btn.btn-secondary{
+  background: var(--secondary-color);
+}
+
+.margin-bottom-20{
+  
+  margin-bottom:20px;
 }
 
 
@@ -301,4 +314,14 @@ button.btn.scale-animated:hover{
 .container{
   width: 80%;
   margin:0 auto;
+}
+
+
+
+button{cursor: pointer;}
+
+
+.plotter{
+  width: 100%;
+  height: 100vh;
 }
