@@ -55,6 +55,35 @@ function PlotPage() {
         {/*graph area*/}
         <div className="thegraph">
             <canvas className="area"></canvas>
+            <div className="x-axis"></div>
+            <div className="y-axis"></div>
+
+            <span className='x-lab'>x</span>
+            <span className='y-lab'>y</span>
+            <span className='o-lab'>o</span>
+
+            <div className="x-numbers">
+            <span>-3</span>
+            <span>-2</span>
+            <span>-1</span>
+            <span>0</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            </div>
+
+            <div className="y-numbers">
+            <span>-3</span>
+            <span>-2</span>
+            <span>-1</span>
+            <span></span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            </div>
+
+
+
             <div className="zoom-set">
              <button id="set2" className="sett2"><Settings2 strokeWidth={1}/></button>
             <button id="zi" className="sett2"><ZoomIn strokeWidth={1}/></button>

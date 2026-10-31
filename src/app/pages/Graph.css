@@ -177,7 +177,32 @@ height: 20px;
     overflow: hidden;
     flex:1;
     height: 600px;
+    background-color: #fff;
+    background-image: 
+    linear-gradient(to right,#E5E7EB 1px,transparent 1px),
+    linear-gradient(to bottom, #E5E7EB 1px,transparent 1px)
+    ;
+    background-size: 20px 20px;
+    background-position: 20px 20px;
 
+
+
+}
+.x-axis{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #8d94a1;
+    top: 50%;
+    left: 0;
+}
+.y-axis{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #8d94a1;
+    top: 0%;
+    left: 50%;
 
 }
 .zoom-set{
@@ -204,10 +229,55 @@ height: 20px;
     width: 100%;
     height: 100%;
     display: block;
+    
+    border: 1px solid #b4b3b3;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    
+}
+.x-lab{
+    position: absolute;
+    right: 10px;
+    top: 52%;
+    z-index: 2;
+}
+.y-lab{
+    position: absolute;
+    top: 10px;
+    left: 52%;
+    z-index: 2;
+}
+.o-lab{
+    position: absolute;
+    left: 48%;
+    top: 52%;
+    z-index: 2;
+}
+.x-numbers{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+   justify-content: space-around;
+    z-index: 3;
+   color: #06430f;
+
 }
 
+.y-numbers{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 3;
+    color: #06430f;
 
-
+}
 
 
 
