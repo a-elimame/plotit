@@ -1,0 +1,68 @@
+
+
+.plotter-toolbar{
+
+  box-shadow: 0px 10px 100px 1px rgba(0,0,0, 0.2);
+  width: 100%;
+  background: #333;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 10px 30px;
+}
+.plotter-document-name, .toolbar-actions{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.plotter-document-name .document-icon{
+  margin: 5px;
+}
+.plotter-document-name .document-icon svg{
+  color: var(--secondary-color);
+}
+
+
+.document-name{
+  position:relative;
+  align-self: stretched;
+  display: flex;
+}
+
+.document-name input{
+  border:none;
+  background: none;
+  color:#fff;
+  font-size: 15px;
+  outline: none;
+  box-shadow: none;
+}
+
+.document-name input::placeholder{
+  color: grey;
+}
+
+.toolbar-actions .toolbar-action{
+  margin: 0px 0 0 20px;
+}
+.toolbar-action button{
+  border-radius: 8px;
+
+  padding: 10px;
+  background: none;
+  color: #fff;
+  border:none;
+  cursor: pointer;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toolbar-action button svg{
+  stroke-width: 1px;
+}
+
+.toolbar-action button:hover{
+  background: #454545 ;
+}
