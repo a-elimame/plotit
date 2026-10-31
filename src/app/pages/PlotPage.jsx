@@ -53,6 +53,8 @@ function PlotPage() {
         {/*-------------------------------------------------------- */}
         
         {/*graph area*/}
+        
+        
         <div className="thegraph">
             <canvas className="area"></canvas>
             <div className="x-axis"></div>
@@ -63,38 +65,52 @@ function PlotPage() {
             <span className='o-lab'>o</span>
 
             <div className="x-numbers">
+           
+            <span>-8</span>
+            <span>-7</span>
+            <span>-6</span>
+            <span>-5</span>
+            <span>-4</span>
             <span>-3</span>
             <span>-2</span>
             <span>-1</span>
-            <span>0</span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
+            <span>&nbsp;0</span>
+            <span>&nbsp;1</span>
+            <span>&nbsp;2</span>
+            <span>&nbsp;3</span>
+            <span>&nbsp;4</span>
+            <span>&nbsp;5</span>
+            <span>&nbsp;6</span>
+            <span>&nbsp;7</span>
+            <span>&nbsp;8</span>
             </div>
 
             <div className="y-numbers">
-            <span>-3</span>
-            <span>-2</span>
-            <span>-1</span>
+            <span>&nbsp;3</span>
+            <span>&nbsp;2</span>
+            <span>&nbsp;1</span>
             <span></span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
+            <span>-1</span>
+            <span>-2</span>
+            <span>-3</span>
             </div>
-
+            
 
 
             <div className="zoom-set">
              <button id="set2" className="sett2"><Settings2 strokeWidth={1}/></button>
+             <div className='zoom-bs'>
             <button id="zi" className="sett2"><ZoomIn strokeWidth={1}/></button>
              <button id="zo" className="sett2"><ZoomOut strokeWidth={1}/></button>
              </div>
+             </div>
+        </div>
         </div>
         {/*-------------------------------------------------------- */}
         
         </div>
 
-       </div>
+       
       </>
     )
 }
