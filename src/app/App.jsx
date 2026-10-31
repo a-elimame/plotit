@@ -15,6 +15,7 @@ function App() {
 
       <Route path="/" element={<HomePage />}></Route>
       <Route path="/plot" element={<PlotPage />} />
+      <Route path="/converter" element={<ConverterPage/>}/>
     </Routes>
 
   )

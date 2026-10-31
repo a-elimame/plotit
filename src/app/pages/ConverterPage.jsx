@@ -1,9 +1,14 @@
 
-
+import Converter from "../../features/converter/Converter";
+import Navbar from "../layouts/Navbar";
 function ConverterPage() {
 
 
-  return <></>
+  return <>
+  <Navbar />
+  <Converter/>
+  
+  </>
 }
 
 

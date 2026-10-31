@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Units-list{
+    border: none;
+    border-radius: 15px;
+    background-color: #eeeaea;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 5px;
+    width: 600px;
+    height: 100px;
+
+
+}
+.Units-list button{
+border: none;
+border-radius: 8px;
+display: flex;
+flex-direction: row;
+
+
+}
