@@ -6,7 +6,6 @@ function PlotPage() {
 
     return (
         <>
-            <Navbar />
             <Plotter />
         </>
     )
