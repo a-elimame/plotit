@@ -5,16 +5,16 @@ import {Ruler,Square,FlaskConical,Weight,Clock,Thermometer,Gauge,Zap,HardDrive,G
 function UnitList(){
     return(
  <div className="Units-list">
-                <button><Ruler strokeWidth={1}/>Lenght</button>
-                <button><Square strokeWidth={1}/>Area</button>
-                <button><FlaskConical strokeWidth={1}/>Volume</button>
-                <button><Weight strokeWidth={1}/>Mass</button>
-                <button><Clock strokeWidth={1}/>Time</button>
-                <button><Thermometer strokeWidth={1}/>Temperature</button>
-                <button><Gauge strokeWidth={1}/>Speed</button>
-                <button><GaugeCircle strokeWidth={1}/>Pressure</button>
-                <button><Zap strokeWidth={1}/>Energy</button>
-                <button><HardDrive strokeWidth={1}/>Digital storage</button>
+                <button><Ruler size={30} strokeWidth={1.5} className="iconx"/>Lenght</button>
+                <button><Square size={30} strokeWidth={1.5} className="iconx"/>Area</button>
+                <button><FlaskConical size={30} strokeWidth={1.5} className="iconx"/>Volume</button>
+                <button><Weight size={30} strokeWidth={1.5} className="iconx"/>Mass</button>
+                <button><Clock size={30} strokeWidth={1.5} className="iconx"/>Time</button>
+                <button><Thermometer size={30} strokeWidth={1.5} className="iconx"/>Temperature</button>
+                <button><Gauge size={30} strokeWidth={1.5} className="iconx"/>Speed</button>
+                <button><GaugeCircle size={30} strokeWidth={1.5} className="iconx"/>Pressure</button>
+                <button><Zap size={30} strokeWidth={1.5} className="iconx"/>Energy</button>
+                <button><HardDrive size={30} strokeWidth={1.5} className="iconx"/>Digital storage</button>
                 </div>
     )
 

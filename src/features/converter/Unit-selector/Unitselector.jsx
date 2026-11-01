@@ -1,6 +1,6 @@
 import { ArrowDownUp } from "lucide-react";
 
-
+import './Unitselector.css'
 
 
 
@@ -21,7 +21,7 @@ function UnitSelector(){
 
                     </select>
                 </div>
-                <button className="swap-butt"><ArrowDownUp/></button>
+                <button className="swap-butt"><ArrowDownUp strokeWidth={2} className="arrow-du"/></button>
                 <div className="to-unit">
                     <label htmlFor="to-select">To</label>
                     <select id="to-select" className="t-select">

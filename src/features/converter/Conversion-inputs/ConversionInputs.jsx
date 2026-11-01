@@ -1,11 +1,16 @@
+import './ConversionInputs.css'
+
+
+
+
 function ConversionInput(){
     return(
  <div className="Conversion-inputs">
-                    <div>
-                        <input type="number" className="input-num"/>
+                    
+                        <input type="number" id="input-num" className="conversionInput"/>
                         <p>=</p>
-                        <input type="text" className="result"readOnly/>
-                    </div>
+                        <input type="text" className="conversionInput" id="result" readOnly />
+                   
 
                 </div>
     )

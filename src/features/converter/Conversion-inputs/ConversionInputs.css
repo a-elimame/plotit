@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.Conversion-inputs{
+    width: 900px;
+    height: 250px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+gap: 0
+
+}
+
+.conversionInput{
+width: 400px;
+height: 200px;
+border: 1px solid #73bc7e;
+border-radius: 10px;
+background-color: #dee5dfee;
+font-size: 30pt;
+color: #0b4b15;
+margin-bottom: 0;
+padding: 20px;
+}
+.Conversion-inputs p{
+    font-size: 30pt;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+.input-num{
+    margin-right: 100px;
+    margin-top: 2px;
+}
+.result{
+    margin-left: 100px;
+    margin-top: 2px;
+}
