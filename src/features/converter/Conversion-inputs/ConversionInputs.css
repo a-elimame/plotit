@@ -5,40 +5,71 @@
 
 }
 .Conversion-inputs{
-    width: 900px;
-    height: 250px;
+    width: 800px;
+    height: 300px;
 display: flex;
 flex-direction: row;
 justify-content: center;
+align-items: center;
 
-gap: 0
+gap: 30px;
+padding-top: 0;
 
+
+}
+
+.inputValue{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    position: relative;
+}
+.inputValue span{
+    position: absolute;
+    right: 1px;
+    color: #0b4b15;
 }
 
 .conversionInput{
-width: 400px;
-height: 200px;
-border: 1px solid #73bc7e;
+width: 300px;
+height: 150px;
+
 border-radius: 10px;
-background-color: #dee5dfee;
-font-size: 30pt;
-color: #0b4b15;
-margin-bottom: 0;
-padding: 20px;
+background: transparent;
+font-size: 10pt;
+
+
+padding: 10px;
+margin: 2px;
+border: 1px solid #e1e3e1;
+
 }
+
+
 .Conversion-inputs p{
     font-size: 30pt;
-    margin-top: 80px;
-    margin-left: 50px;
-    margin-right: 50px;
     
     
 }
-.input-num{
-    margin-right: 100px;
-    margin-top: 2px;
+
+.Conversion-inputs input{
+    
+    height: 100px;
+    border: none;
+    background: transparent;
+    font-size: 50pt;
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: auto;
+    color: #0b4b15;
+    
+    
 }
-.result{
-    margin-left: 100px;
-    margin-top: 2px;
+.Conversion-inputs label{
+    color: #475569;
+}
+.Conversion-inputs input:focus{
+    outline: none;
+    box-shadow: none;
 }

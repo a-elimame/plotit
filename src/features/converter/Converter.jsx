@@ -12,23 +12,32 @@ import UnitSelector from "./Unit-selector/Unitselector";
 function Converter(){
     return(
         <>
-        <div className="spacee">
+        
         <div className="Converter-border">
             <div className="Converter-box">
-                {/*Units choose */}
-               <UnitList/>
-                {/*------*/}
+                <div className="category-units">
+                 <div className="titles-conversion">  
+                <h1>Convert units</h1>
+                <p>Choose a category and enter your value.</p>
+                 </div>
 
-                {/*inputs*/}
+               <UnitList className="CATEGORIES-list"/>
+                </div>
+
+               <div className="value-conversion">
+                
+                <h3>VALUE CONVERSION</h3>
+                
                 <ConversionInput/>
-                {/*----------------*/}
+               
                 
                 <UnitSelector/>
+                </div>
 
             </div>
 
         </div>
-        </div>
+        
        
         </>
 

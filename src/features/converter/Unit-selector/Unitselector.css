@@ -6,12 +6,13 @@
 .Unit-selector{
     display: flex;
     flex-direction: row;
-    width: 1000px;
+    width: 800px;
+
 
     
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     
 }
 .From-unit{
@@ -25,7 +26,7 @@
     gap: 10px;
 }
 .Unit-selector select{
-    width: 400px;
+    width: 300px;
     height: 60px;
     padding: 10px;
    border: 1px solid #abbfae;
@@ -35,10 +36,9 @@
 .Unit-selector select:focus{
     
     box-shadow: 0 0 6px #c4cac5;
-     border: 2px solid #40b551;
+     border: 2px solid #a0d0b9;
+     outline: none;
 }
-
-
 
 
 
@@ -47,11 +47,21 @@
     height: 50px;
     border-radius: 50%;
     border: none;
-    margin-top: 30px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; 
+    transition: transform 0.2s ease;  
+    background-color: #65D6A0;
 }
 
 .arrow-du{
-   color: #40b551;
+   color: #fff;
+   
+}
+
+.swap-butt:hover{
+    transform:rotate(180deg);
 }
 .From-unit label{
     color: #525252;
