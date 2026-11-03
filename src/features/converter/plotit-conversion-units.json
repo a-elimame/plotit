@@ -1,0 +1,1036 @@
+[
+  {
+    "name": "Meter",
+    "symbol": "m",
+    "type": "Length",
+    "system": "SI",
+    "base_unit": true,
+    "conversion": 1,
+    "conversion_exact": "1"
+  },
+  {
+    "name": "Kilometer",
+    "symbol": "km",
+    "type": "Length",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1000,
+    "conversion_exact": "1000"
+  },
+  {
+    "name": "Decimeter",
+    "symbol": "dm",
+    "type": "Length",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 0.1,
+    "conversion_exact": "0.1"
+  },
+  {
+    "name": "Centimeter",
+    "symbol": "cm",
+    "type": "Length",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 0.01,
+    "conversion_exact": "0.01"
+  },
+  {
+    "name": "Millimeter",
+    "symbol": "mm",
+    "type": "Length",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 0.001,
+    "conversion_exact": "0.001"
+  },
+  {
+    "name": "Micrometer",
+    "symbol": "µm",
+    "type": "Length",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1e-06,
+    "conversion_exact": "0.000001"
+  },
+  {
+    "name": "Nanometer",
+    "symbol": "nm",
+    "type": "Length",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1e-09,
+    "conversion_exact": "0.000000001"
+  },
+  {
+    "name": "Inch",
+    "symbol": "in",
+    "type": "Length",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.0254,
+    "conversion_exact": "0.0254"
+  },
+  {
+    "name": "Foot",
+    "symbol": "ft",
+    "type": "Length",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.3048,
+    "conversion_exact": "0.3048"
+  },
+  {
+    "name": "Yard",
+    "symbol": "yd",
+    "type": "Length",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.9144,
+    "conversion_exact": "0.9144"
+  },
+  {
+    "name": "Mile",
+    "symbol": "mi",
+    "type": "Length",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 1609.344,
+    "conversion_exact": "1609.344"
+  },
+  {
+    "name": "Nautical mile",
+    "symbol": "nmi",
+    "type": "Length",
+    "system": "International",
+    "base_unit": false,
+    "conversion": 1852,
+    "conversion_exact": "1852"
+  },
+  {
+    "name": "Astronomical unit",
+    "symbol": "au",
+    "type": "Length",
+    "system": "Astronomical",
+    "base_unit": false,
+    "conversion": 149597870700,
+    "conversion_exact": "149597870700"
+  },
+  {
+    "name": "Light-year",
+    "symbol": "ly",
+    "type": "Length",
+    "system": "Astronomical",
+    "base_unit": false,
+    "conversion": 9460730472580800,
+    "conversion_exact": "9460730472580800"
+  },
+  {
+    "name": "Square meter",
+    "symbol": "m²",
+    "type": "Area",
+    "system": "SI",
+    "base_unit": true,
+    "conversion": 1,
+    "conversion_exact": "1"
+  },
+  {
+    "name": "Square kilometer",
+    "symbol": "km²",
+    "type": "Area",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1000000,
+    "conversion_exact": "1000000"
+  },
+  {
+    "name": "Square centimeter",
+    "symbol": "cm²",
+    "type": "Area",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 0.0001,
+    "conversion_exact": "0.0001"
+  },
+  {
+    "name": "Square millimeter",
+    "symbol": "mm²",
+    "type": "Area",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1e-06,
+    "conversion_exact": "0.000001"
+  },
+  {
+    "name": "Hectare",
+    "symbol": "ha",
+    "type": "Area",
+    "system": "Metric",
+    "base_unit": false,
+    "conversion": 10000,
+    "conversion_exact": "10000"
+  },
+  {
+    "name": "Are",
+    "symbol": "a",
+    "type": "Area",
+    "system": "Metric",
+    "base_unit": false,
+    "conversion": 100,
+    "conversion_exact": "100"
+  },
+  {
+    "name": "Acre (international)",
+    "symbol": "ac",
+    "type": "Area",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 4046.8564224,
+    "conversion_exact": "4046.8564224"
+  },
+  {
+    "name": "Square inch",
+    "symbol": "in²",
+    "type": "Area",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.00064516,
+    "conversion_exact": "0.00064516"
+  },
+  {
+    "name": "Square foot",
+    "symbol": "ft²",
+    "type": "Area",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.09290304,
+    "conversion_exact": "0.09290304"
+  },
+  {
+    "name": "Square yard",
+    "symbol": "yd²",
+    "type": "Area",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.83612736,
+    "conversion_exact": "0.83612736"
+  },
+  {
+    "name": "Square mile",
+    "symbol": "mi²",
+    "type": "Area",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 2589988.110336,
+    "conversion_exact": "2589988.110336"
+  },
+  {
+    "name": "Cubic meter",
+    "symbol": "m³",
+    "type": "Volume",
+    "system": "SI",
+    "base_unit": true,
+    "conversion": 1,
+    "conversion_exact": "1"
+  },
+  {
+    "name": "Cubic kilometer",
+    "symbol": "km³",
+    "type": "Volume",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1000000000.0,
+    "conversion_exact": "1000000000"
+  },
+  {
+    "name": "Cubic centimeter",
+    "symbol": "cm³",
+    "type": "Volume",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1e-06,
+    "conversion_exact": "0.000001"
+  },
+  {
+    "name": "Cubic millimeter",
+    "symbol": "mm³",
+    "type": "Volume",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1e-09,
+    "conversion_exact": "0.000000001"
+  },
+  {
+    "name": "Liter",
+    "symbol": "L",
+    "type": "Volume",
+    "system": "Metric",
+    "base_unit": false,
+    "conversion": 0.001,
+    "conversion_exact": "0.001"
+  },
+  {
+    "name": "Milliliter",
+    "symbol": "mL",
+    "type": "Volume",
+    "system": "Metric",
+    "base_unit": false,
+    "conversion": 1e-06,
+    "conversion_exact": "0.000001"
+  },
+  {
+    "name": "US gallon",
+    "symbol": "US gal",
+    "type": "Volume",
+    "system": "US customary (liquid)",
+    "base_unit": false,
+    "conversion": 0.003785411784,
+    "conversion_exact": "0.003785411784"
+  },
+  {
+    "name": "US quart",
+    "symbol": "US qt",
+    "type": "Volume",
+    "system": "US customary (liquid)",
+    "base_unit": false,
+    "conversion": 0.000946352946,
+    "conversion_exact": "0.000946352946"
+  },
+  {
+    "name": "US pint",
+    "symbol": "US pt",
+    "type": "Volume",
+    "system": "US customary (liquid)",
+    "base_unit": false,
+    "conversion": 0.000473176473,
+    "conversion_exact": "0.000473176473"
+  },
+  {
+    "name": "US cup",
+    "symbol": "US cup",
+    "type": "Volume",
+    "system": "US customary (liquid)",
+    "base_unit": false,
+    "conversion": 0.0002365882365,
+    "conversion_exact": "0.0002365882365"
+  },
+  {
+    "name": "US fluid ounce",
+    "symbol": "US fl oz",
+    "type": "Volume",
+    "system": "US customary (liquid)",
+    "base_unit": false,
+    "conversion": 2.95735295625e-05,
+    "conversion_exact": "0.0000295735295625"
+  },
+  {
+    "name": "US tablespoon",
+    "symbol": "US tbsp",
+    "type": "Volume",
+    "system": "US customary (liquid)",
+    "base_unit": false,
+    "conversion": 1.478676478125e-05,
+    "conversion_exact": "0.00001478676478125"
+  },
+  {
+    "name": "US teaspoon",
+    "symbol": "US tsp",
+    "type": "Volume",
+    "system": "US customary (liquid)",
+    "base_unit": false,
+    "conversion": 4.92892159375e-06,
+    "conversion_exact": "0.00000492892159375"
+  },
+  {
+    "name": "Cubic foot",
+    "symbol": "ft³",
+    "type": "Volume",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.028316846592,
+    "conversion_exact": "0.028316846592"
+  },
+  {
+    "name": "Cubic inch",
+    "symbol": "in³",
+    "type": "Volume",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 1.6387064e-05,
+    "conversion_exact": "0.000016387064"
+  },
+  {
+    "name": "Imperial gallon",
+    "symbol": "imp gal",
+    "type": "Volume",
+    "system": "Imperial",
+    "base_unit": false,
+    "conversion": 0.00454609,
+    "conversion_exact": "0.00454609"
+  },
+  {
+    "name": "Imperial quart",
+    "symbol": "imp qt",
+    "type": "Volume",
+    "system": "Imperial",
+    "base_unit": false,
+    "conversion": 0.0011365225,
+    "conversion_exact": "0.0011365225"
+  },
+  {
+    "name": "Imperial pint",
+    "symbol": "imp pt",
+    "type": "Volume",
+    "system": "Imperial",
+    "base_unit": false,
+    "conversion": 0.00056826125,
+    "conversion_exact": "0.00056826125"
+  },
+  {
+    "name": "Imperial fluid ounce",
+    "symbol": "imp fl oz",
+    "type": "Volume",
+    "system": "Imperial",
+    "base_unit": false,
+    "conversion": 2.84130625e-05,
+    "conversion_exact": "0.0000284130625"
+  },
+  {
+    "name": "Kilogram",
+    "symbol": "kg",
+    "type": "Mass",
+    "system": "SI",
+    "base_unit": true,
+    "conversion": 1,
+    "conversion_exact": "1"
+  },
+  {
+    "name": "Metric tonne",
+    "symbol": "t",
+    "type": "Mass",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1000,
+    "conversion_exact": "1000"
+  },
+  {
+    "name": "Gram",
+    "symbol": "g",
+    "type": "Mass",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 0.001,
+    "conversion_exact": "0.001"
+  },
+  {
+    "name": "Milligram",
+    "symbol": "mg",
+    "type": "Mass",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1e-06,
+    "conversion_exact": "0.000001"
+  },
+  {
+    "name": "Microgram",
+    "symbol": "µg",
+    "type": "Mass",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1e-09,
+    "conversion_exact": "0.000000001"
+  },
+  {
+    "name": "Carat",
+    "symbol": "ct",
+    "type": "Mass",
+    "system": "Metric",
+    "base_unit": false,
+    "conversion": 0.0002,
+    "conversion_exact": "0.0002"
+  },
+  {
+    "name": "Grain",
+    "symbol": "gr",
+    "type": "Mass",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 6.479891e-05,
+    "conversion_exact": "0.00006479891"
+  },
+  {
+    "name": "Ounce",
+    "symbol": "oz",
+    "type": "Mass",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.028349523125,
+    "conversion_exact": "0.028349523125"
+  },
+  {
+    "name": "Pound",
+    "symbol": "lb",
+    "type": "Mass",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.45359237,
+    "conversion_exact": "0.45359237"
+  },
+  {
+    "name": "Stone",
+    "symbol": "st",
+    "type": "Mass",
+    "system": "Imperial",
+    "base_unit": false,
+    "conversion": 6.35029318,
+    "conversion_exact": "6.35029318"
+  },
+  {
+    "name": "US short ton",
+    "symbol": "short ton",
+    "type": "Mass",
+    "system": "US customary",
+    "base_unit": false,
+    "conversion": 907.18474,
+    "conversion_exact": "907.18474"
+  },
+  {
+    "name": "Imperial long ton",
+    "symbol": "long ton",
+    "type": "Mass",
+    "system": "Imperial",
+    "base_unit": false,
+    "conversion": 1016.0469088,
+    "conversion_exact": "1016.0469088"
+  },
+  {
+    "name": "Second",
+    "symbol": "s",
+    "type": "Time",
+    "system": "SI",
+    "base_unit": true,
+    "conversion": 1,
+    "conversion_exact": "1"
+  },
+  {
+    "name": "Millisecond",
+    "symbol": "ms",
+    "type": "Time",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 0.001,
+    "conversion_exact": "0.001"
+  },
+  {
+    "name": "Microsecond",
+    "symbol": "µs",
+    "type": "Time",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1e-06,
+    "conversion_exact": "0.000001"
+  },
+  {
+    "name": "Nanosecond",
+    "symbol": "ns",
+    "type": "Time",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1e-09,
+    "conversion_exact": "0.000000001"
+  },
+  {
+    "name": "Minute",
+    "symbol": "min",
+    "type": "Time",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 60,
+    "conversion_exact": "60"
+  },
+  {
+    "name": "Hour",
+    "symbol": "h",
+    "type": "Time",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 3600,
+    "conversion_exact": "3600"
+  },
+  {
+    "name": "Day",
+    "symbol": "d",
+    "type": "Time",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 86400,
+    "conversion_exact": "86400"
+  },
+  {
+    "name": "Week",
+    "symbol": "wk",
+    "type": "Time",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 604800,
+    "conversion_exact": "604800"
+  },
+  {
+    "name": "Julian year",
+    "symbol": "a (Julian)",
+    "type": "Time",
+    "system": "Astronomical",
+    "base_unit": false,
+    "conversion": 31557600,
+    "conversion_exact": "31557600"
+  },
+  {
+    "name": "Kelvin",
+    "symbol": "K",
+    "type": "Temperature",
+    "system": "SI",
+    "base_unit": true,
+    "conversion": 1,
+    "conversion_exact": "1",
+    "offset": 0,
+    "offset_exact": "0"
+  },
+  {
+    "name": "Degree Celsius",
+    "symbol": "°C",
+    "type": "Temperature",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1,
+    "conversion_exact": "1",
+    "offset": 273.15,
+    "offset_exact": "273.15"
+  },
+  {
+    "name": "Degree Fahrenheit",
+    "symbol": "°F",
+    "type": "Temperature",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.5555555555555556,
+    "conversion_exact": "5/9",
+    "offset": 255.37222222222223,
+    "offset_exact": "45967/180"
+  },
+  {
+    "name": "Degree Rankine",
+    "symbol": "°R",
+    "type": "Temperature",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.5555555555555556,
+    "conversion_exact": "5/9",
+    "offset": 0,
+    "offset_exact": "0"
+  },
+  {
+    "name": "Meter per second",
+    "symbol": "m/s",
+    "type": "Speed",
+    "system": "SI",
+    "base_unit": true,
+    "conversion": 1,
+    "conversion_exact": "1"
+  },
+  {
+    "name": "Kilometer per hour",
+    "symbol": "km/h",
+    "type": "Speed",
+    "system": "Metric",
+    "base_unit": false,
+    "conversion": 0.2777777777777778,
+    "conversion_exact": "5/18"
+  },
+  {
+    "name": "Centimeter per second",
+    "symbol": "cm/s",
+    "type": "Speed",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 0.01,
+    "conversion_exact": "0.01"
+  },
+  {
+    "name": "Foot per second",
+    "symbol": "ft/s",
+    "type": "Speed",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.3048,
+    "conversion_exact": "0.3048"
+  },
+  {
+    "name": "Mile per hour",
+    "symbol": "mph",
+    "type": "Speed",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 0.44704,
+    "conversion_exact": "0.44704"
+  },
+  {
+    "name": "Knot",
+    "symbol": "kn",
+    "type": "Speed",
+    "system": "International",
+    "base_unit": false,
+    "conversion": 0.5144444444444445,
+    "conversion_exact": "463/900"
+  },
+  {
+    "name": "Pascal",
+    "symbol": "Pa",
+    "type": "Pressure",
+    "system": "SI",
+    "base_unit": true,
+    "conversion": 1,
+    "conversion_exact": "1"
+  },
+  {
+    "name": "Hectopascal",
+    "symbol": "hPa",
+    "type": "Pressure",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 100,
+    "conversion_exact": "100"
+  },
+  {
+    "name": "Kilopascal",
+    "symbol": "kPa",
+    "type": "Pressure",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1000,
+    "conversion_exact": "1000"
+  },
+  {
+    "name": "Megapascal",
+    "symbol": "MPa",
+    "type": "Pressure",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1000000,
+    "conversion_exact": "1000000"
+  },
+  {
+    "name": "Gigapascal",
+    "symbol": "GPa",
+    "type": "Pressure",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1000000000,
+    "conversion_exact": "1000000000"
+  },
+  {
+    "name": "Bar",
+    "symbol": "bar",
+    "type": "Pressure",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 100000,
+    "conversion_exact": "100000"
+  },
+  {
+    "name": "Millibar",
+    "symbol": "mbar",
+    "type": "Pressure",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 100,
+    "conversion_exact": "100"
+  },
+  {
+    "name": "Standard atmosphere",
+    "symbol": "atm",
+    "type": "Pressure",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 101325,
+    "conversion_exact": "101325"
+  },
+  {
+    "name": "Technical atmosphere",
+    "symbol": "at",
+    "type": "Pressure",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 98066.5,
+    "conversion_exact": "98066.5"
+  },
+  {
+    "name": "Pound per square inch",
+    "symbol": "psi",
+    "type": "Pressure",
+    "system": "US customary",
+    "base_unit": false,
+    "conversion": 6894.757293168361,
+    "conversion_exact": "8896443230521/1290320000"
+  },
+  {
+    "name": "Torr",
+    "symbol": "Torr",
+    "type": "Pressure",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 133.32236842105263,
+    "conversion_exact": "101325/760"
+  },
+  {
+    "name": "Millimeter of mercury (conventional)",
+    "symbol": "mmHg",
+    "type": "Pressure",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 133.322387415,
+    "conversion_exact": "133.322387415"
+  },
+  {
+    "name": "Joule",
+    "symbol": "J",
+    "type": "Energy",
+    "system": "SI",
+    "base_unit": true,
+    "conversion": 1,
+    "conversion_exact": "1"
+  },
+  {
+    "name": "Kilojoule",
+    "symbol": "kJ",
+    "type": "Energy",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1000,
+    "conversion_exact": "1000"
+  },
+  {
+    "name": "Megajoule",
+    "symbol": "MJ",
+    "type": "Energy",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1000000,
+    "conversion_exact": "1000000"
+  },
+  {
+    "name": "Gigajoule",
+    "symbol": "GJ",
+    "type": "Energy",
+    "system": "SI",
+    "base_unit": false,
+    "conversion": 1000000000,
+    "conversion_exact": "1000000000"
+  },
+  {
+    "name": "Calorie (thermochemical)",
+    "symbol": "cal",
+    "type": "Energy",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 4.184,
+    "conversion_exact": "4.184"
+  },
+  {
+    "name": "Kilocalorie",
+    "symbol": "kcal",
+    "type": "Energy",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 4184,
+    "conversion_exact": "4184"
+  },
+  {
+    "name": "Watt-hour",
+    "symbol": "Wh",
+    "type": "Energy",
+    "system": "SI derived",
+    "base_unit": false,
+    "conversion": 3600,
+    "conversion_exact": "3600"
+  },
+  {
+    "name": "Kilowatt-hour",
+    "symbol": "kWh",
+    "type": "Energy",
+    "system": "SI derived",
+    "base_unit": false,
+    "conversion": 3600000,
+    "conversion_exact": "3600000"
+  },
+  {
+    "name": "Megawatt-hour",
+    "symbol": "MWh",
+    "type": "Energy",
+    "system": "SI derived",
+    "base_unit": false,
+    "conversion": 3600000000,
+    "conversion_exact": "3600000000"
+  },
+  {
+    "name": "Electronvolt",
+    "symbol": "eV",
+    "type": "Energy",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 1.602176634e-19,
+    "conversion_exact": "0.0000000000000000001602176634"
+  },
+  {
+    "name": "Kiloelectronvolt",
+    "symbol": "keV",
+    "type": "Energy",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 1.602176634e-16,
+    "conversion_exact": "0.0000000000000001602176634"
+  },
+  {
+    "name": "Megaelectronvolt",
+    "symbol": "MeV",
+    "type": "Energy",
+    "system": "Non-SI",
+    "base_unit": false,
+    "conversion": 1.602176634e-13,
+    "conversion_exact": "0.0000000000001602176634"
+  },
+  {
+    "name": "British thermal unit (IT)",
+    "symbol": "BTU",
+    "type": "Energy",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 1055.05585262,
+    "conversion_exact": "1055.05585262"
+  },
+  {
+    "name": "Foot-pound force",
+    "symbol": "ft·lbf",
+    "type": "Energy",
+    "system": "Imperial / US customary",
+    "base_unit": false,
+    "conversion": 1.3558179483314003,
+    "conversion_exact": "1.3558179483314004"
+  },
+  {
+    "name": "Byte",
+    "symbol": "B",
+    "type": "Digital storage",
+    "system": "IEC / common computing",
+    "base_unit": true,
+    "conversion": 1,
+    "conversion_exact": "1"
+  },
+  {
+    "name": "Bit",
+    "symbol": "bit",
+    "type": "Digital storage",
+    "system": "IEC / common computing",
+    "base_unit": false,
+    "conversion": 0.125,
+    "conversion_exact": "0.125"
+  },
+  {
+    "name": "Nibble",
+    "symbol": "nibble",
+    "type": "Digital storage",
+    "system": "Common computing",
+    "base_unit": false,
+    "conversion": 0.5,
+    "conversion_exact": "0.5"
+  },
+  {
+    "name": "Kilobyte",
+    "symbol": "kB",
+    "type": "Digital storage",
+    "system": "SI (decimal)",
+    "base_unit": false,
+    "conversion": 1000,
+    "conversion_exact": "1000"
+  },
+  {
+    "name": "Megabyte",
+    "symbol": "MB",
+    "type": "Digital storage",
+    "system": "SI (decimal)",
+    "base_unit": false,
+    "conversion": 1000000,
+    "conversion_exact": "1000000"
+  },
+  {
+    "name": "Gigabyte",
+    "symbol": "GB",
+    "type": "Digital storage",
+    "system": "SI (decimal)",
+    "base_unit": false,
+    "conversion": 1000000000,
+    "conversion_exact": "1000000000"
+  },
+  {
+    "name": "Terabyte",
+    "symbol": "TB",
+    "type": "Digital storage",
+    "system": "SI (decimal)",
+    "base_unit": false,
+    "conversion": 1000000000000,
+    "conversion_exact": "1000000000000"
+  },
+  {
+    "name": "Petabyte",
+    "symbol": "PB",
+    "type": "Digital storage",
+    "system": "SI (decimal)",
+    "base_unit": false,
+    "conversion": 1000000000000000,
+    "conversion_exact": "1000000000000000"
+  },
+  {
+    "name": "Kibibyte",
+    "symbol": "KiB",
+    "type": "Digital storage",
+    "system": "IEC (binary)",
+    "base_unit": false,
+    "conversion": 1024,
+    "conversion_exact": "1024"
+  },
+  {
+    "name": "Mebibyte",
+    "symbol": "MiB",
+    "type": "Digital storage",
+    "system": "IEC (binary)",
+    "base_unit": false,
+    "conversion": 1048576,
+    "conversion_exact": "1048576"
+  },
+  {
+    "name": "Gibibyte",
+    "symbol": "GiB",
+    "type": "Digital storage",
+    "system": "IEC (binary)",
+    "base_unit": false,
+    "conversion": 1073741824,
+    "conversion_exact": "1073741824"
+  },
+  {
+    "name": "Tebibyte",
+    "symbol": "TiB",
+    "type": "Digital storage",
+    "system": "IEC (binary)",
+    "base_unit": false,
+    "conversion": 1099511627776,
+    "conversion_exact": "1099511627776"
+  },
+  {
+    "name": "Pebibyte",
+    "symbol": "PiB",
+    "type": "Digital storage",
+    "system": "IEC (binary)",
+    "base_unit": false,
+    "conversion": 1125899906842624,
+    "conversion_exact": "1125899906842624"
+  }
+]
