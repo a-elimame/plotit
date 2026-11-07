@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import HomePage from './pages/HomePage.jsx';
-import CalculatorPage from './pages/CalculatorPage.jsx'
+import CalculatorPage from './pages/CalculatorPage.jsx';
 import PlotPage from './pages/PlotPage.jsx';
 import ConverterPage from './pages/ConverterPage.jsx';
+import ChatbotPage from './pages/ChatbotPage.jsx';
 import './styles/global.css'
 import { Routes, Route } from 'react-router-dom';
+
 function App() {
 
 
@@ -17,6 +19,7 @@ function App() {
       <Route path="/plot" element={<PlotPage />} />
       <Route path="/converter" element={<ConverterPage/>}/>
       <Route path="/calculator" element={<CalculatorPage/>}/>
+      <Route path='/chatbot' element={<ChatbotPage/>}/>
     </Routes>
 
   )
