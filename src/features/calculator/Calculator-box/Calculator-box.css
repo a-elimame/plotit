@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calculator-box{
+width: 800px;
+height: 600px;
+display: flex;
+border: 1px solid #e2e0e0;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 1px #555;
+margin: 20px;
+
+}
+.calculator-box p{
+    color: #555;
+}
