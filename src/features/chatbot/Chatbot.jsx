@@ -1,6 +1,10 @@
 import "./Chatbot.css";
 import { Send } from "lucide-react";
-import { useState } from "react";
+import { useState ,useEffect} from "react";
+import ReactMarkdown from "react-markdown";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+import "katex/dist/katex.min.css";
 
 
 function Chatbot(){
@@ -8,9 +12,25 @@ function Chatbot(){
     const [reply,setReply]=useState("");
     const [messages,setMessages]=useState([]);
     const [isLoading, setIsLoading]=useState(false);
+    useEffect(() => {
+    const savedMessages = localStorage.getItem("chatMessages");
+
+    if (savedMessages) {
+            setMessages(JSON.parse(savedMessages));
+        }
+    }, []);
+
+    useEffect(() => {
+        localStorage.setItem("chatMessages", JSON.stringify(messages));
+    }, [messages]);
+
+    const clearChat=()=>{
+        setMessages([]);
+        localStorage.removeItem("chatMessages");
+    };
 
     const handleSend=async ()=>{
-        if(!message.trim()) return;
+        if(!message.trim() || isLoading) return;
         setIsLoading(true);
         setMessages(prevMessages=>[
             ...prevMessages,{
@@ -47,6 +67,10 @@ function Chatbot(){
     catch(error){
         console.error("Chatbot error: ",error);
         setReply("Something went wrong. Please try again.");
+       
+    }
+    finally{
+        setIsLoading(false);
     }
 
 
@@ -57,13 +81,19 @@ function Chatbot(){
         <div className="chatbotPAGE">
             {messages.length===0&&(
           <h1>Hello, How can I help you?</h1> )}
+          
 
           <div className="chatMessages">
             {messages.map((msg, index) => (
                 <div key={index} className={`message ${msg.sender}`}>
-                    {msg.text}
+                    <ReactMarkdown remarkPlugins={[remarkMath]} rehypePlugins={[rehypeKatex]}>
+                        {msg.text}
+                    </ReactMarkdown>
                 </div>
-            ))}
+            ))
+        
+            }
+            {isLoading&& (<div className="message bot">...</div>)}
             </div> 
 
           <div className="messageInput">
@@ -76,7 +106,14 @@ function Chatbot(){
                 }}
             }
             />
-            <button className="sendBUTT" onClick={handleSend}><Send  size={20} className="sendICON"/></button>
+
+            <button onClick={clearChat} className="clearBUTT">
+                Clear conversation
+            </button>
+            <button className="sendBUTT" onClick={handleSend}
+            disabled={isLoading}
+            
+            ><Send  size={20} className="sendICON"/></button>
           </div>
           <p>Chatbot can make mistakes. Check importants informations.</p>
         </div>

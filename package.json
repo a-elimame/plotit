@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "katex": "^0.19.1",
     "lucide-react": "^1.61.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "react-router-dom": "^7.18.5"
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.18.5",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.3.0",
