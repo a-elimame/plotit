@@ -1,7 +1,10 @@
 import { AudioWaveform, SquareFunction } from "lucide-react";
 
 
-function ExpressionItem() {
+
+function ExpressionItem({ handleUpdate }) {
+
+
   return (<>
 
     <div className="item-actions">
@@ -20,9 +23,9 @@ function ExpressionItem() {
       {/* </div> */}
     </div>
     <div className="item-content">
-      <div class="item-custom-input" contentEditable >
+      <input class="item-custom-input" onChange={handleUpdate}>
 
-      </div>
+      </input>
     </div>
 
   </>);

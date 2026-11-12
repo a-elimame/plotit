@@ -7,6 +7,7 @@ import ChatbotPage from './pages/ChatbotPage.jsx';
 import './styles/global.css'
 import { Routes, Route } from 'react-router-dom';
 
+
 function App() {
 
 
@@ -17,9 +18,9 @@ function App() {
 
       <Route path="/" element={<HomePage />}></Route>
       <Route path="/plot" element={<PlotPage />} />
-      <Route path="/converter" element={<ConverterPage/>}/>
-      <Route path="/calculator" element={<CalculatorPage/>}/>
-      <Route path='/chatbot' element={<ChatbotPage/>}/>
+      <Route path="/converter" element={<ConverterPage />} />
+      <Route path="/calculator" element={<CalculatorPage />} />
+      <Route path='/chatbot' element={<ChatbotPage />} />
     </Routes>
 
   )
