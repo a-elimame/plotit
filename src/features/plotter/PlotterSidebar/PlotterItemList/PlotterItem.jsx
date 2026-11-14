@@ -15,7 +15,7 @@ function PlotterItem({ type, lexer }) {
     setInputStreamUpdated(prev => prev + 1);
   }
   useEffect(() => {
-    console.log(inputStream.tokenList);
+
   }, [inputStreamUpdated])
   return (
     <div className="plotter-item">

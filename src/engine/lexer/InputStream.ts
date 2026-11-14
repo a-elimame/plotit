@@ -1,9 +1,9 @@
 import Token from './Token.ts';
 
 class InputStream {
-  _input: string;
+  private _input: string;
   tokenize: (inputStream: InputStream) => void;
-  _tokenList: Token[];
+  private _tokenList: Token[];
   constructor(input = '', tokenize: (inputStream: InputStream) => void) {
     this._input = input;
     this.tokenize = tokenize;

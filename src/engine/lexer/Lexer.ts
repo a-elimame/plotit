@@ -2,7 +2,7 @@ import TokenDef from './TokenDef.ts';
 import Token from './Token.ts';
 import InputStream from './InputStream.ts';
 
-
+const EOF = new Token('EOF', '');
 const TOKENS_DEF: TokenDef[] = [
   new TokenDef('ID', '^[a-zA-Z_][a-zA-Z_0-9]*$', []),
   new TokenDef('NUM', '^(?:[0-9]+(?:[.][0-9]*)?|[.][0-9]+)(?:[eE][+-]?[0-9]+)?$', []),
@@ -68,8 +68,10 @@ class Lexer {
 
       // console.log(currentSelectionMatchedTokens, nextSelectionMatchedTokens);
 
-      if (nextSelectionMatchedTokens.length) continue;
-      else if (currentSelectionMatchedTokens.length) {
+
+      console.log(currentSelection, nextSelection);
+      if (nextSelectionMatchedTokens.length && currentSelection.length != nextSelection.length) continue;
+      if (currentSelectionMatchedTokens.length) {
         let priorMatchedToken: TokenDef = currentSelectionMatchedTokens[0];
         for (let j = 1; j < currentSelectionMatchedTokens.length; ++j) {
           if (currentSelectionMatchedTokens[j].priorTo.includes(priorMatchedToken)
@@ -78,12 +80,11 @@ class Lexer {
           }
         }
         inputStream.tokenList = [...inputStream.tokenList, new Token(priorMatchedToken.name, currentSelection)]
-        currentPos = i + 1;
       }
-      else {
-        currentPos = i + 1;
-      }
+      currentPos = i + 1;
     }
+    inputStream.tokenList = [...inputStream.tokenList, EOF];
+    console.log(inputStream.tokenList);
   }
 }
 

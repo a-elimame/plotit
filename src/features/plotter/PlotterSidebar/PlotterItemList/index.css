@@ -80,5 +80,7 @@
   width: 100%;
   padding-left: 10px;
   outline: none;
+  border:none;
+  height:100%;
   font-family: 'Computer Modern Serif', serif;
 }
